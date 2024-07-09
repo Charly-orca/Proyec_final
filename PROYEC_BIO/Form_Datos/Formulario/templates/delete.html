@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eliminar Usuario</title>
+</head>
+<body>
+    <h1>Eliminar Usuario</h1>
+    <p>¿Está seguro de que desea eliminar al usuario {{ usuario[1] }}?</p>
+    <form action="" method="post">
+        <input type="submit" value="Eliminar">
+    </form>
+    <a href="{{ url_for('principal') }}">Cancelar</a>
+</body>
+</html>
